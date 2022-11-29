@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SIK Delixir</title>
+  <title>Sistem Informasi PUM, PJUM & P2D</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
@@ -14,13 +14,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 
-<body class=" bg-primary">
+<body style="background: linear-gradient(90deg, #fec163 0%, #de4313 100%);">
   <div class="container">
     <div class="login-box">
 
       <center>
 
-        <h3><b>SISTEM INFORMASI KEUANGAN</b></h3>
+        <h3><b>Sistem Informasi PUM, PJUM & P2D</b></h3>
 
 
         <br />
@@ -28,11 +28,11 @@
         <?php
         if (isset($_GET['alert'])) {
           if ($_GET['alert'] == "gagal") {
-            echo "<div class='alert alert-danger'>LOGIN GAGAL! USERNAME DAN PASSWORD SALAH!</div>";
+            echo "<div class='alert alert-danger'> <Strong>Login Gagal!</Strong> Username & Password Salah!</div>";
           } else if ($_GET['alert'] == "logout") {
-            echo "<div class='alert alert-success'>ANDA TELAH BERHASIL LOGOUT</div>";
+            echo "<div class='alert alert-success'>Anda Telah Berhasil Logout</div>";
           } else if ($_GET['alert'] == "belum_login") {
-            echo "<div class='alert alert-warning'>ANDA HARUS LOGIN UNTUK MENGAKSES DASHBOARD</div>";
+            echo "<div class='alert alert-warning'>Anda Harus Login Untuk Mengakses Dashboard</div>";
           }
         }
         ?>
@@ -40,7 +40,8 @@
 
       <div class="login-box-body">
 
-        <div class="text-center"> <img src="/delixir/assets/delixir.jpg" style="max-width:50%;">
+        <div class="text-center"> <img src="/delixir/gambar/sistem//logoRbw.png" style="max-width:50%;">
+        <h5><Strong>PT Regista Bunga Wijaya Cabang Surabaya</Strong></h5>
           <br>
 
           <span style="color: Black;">
@@ -63,11 +64,7 @@
               <input type="password" class="form-control" placeholder="Password" name="password" required="required" autocomplete="off">
               <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
-            <div class="row">
-              <div class="col-xs-offset-8 col-xs-4">
-                <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
-              </div>
-            </div>
+            <input type="submit" name="submit" class="btn btn-primary btn-user btn-block" value="Login">
           </form>
 
         </div>
@@ -76,7 +73,7 @@
 
     <span style="color: white;">
       <center>
-        <h5>D'Elixir Bracelet - 2021</h5>
+        <h5>VITech Developer - 2022</h5>
       </center>
     </span></p>
 

@@ -5,7 +5,7 @@
   <section class="content-header">
     <h1>
       Dashboard
-      <small>Sistem Informasi Keuangan</small>
+      <small>Sistem Informasi PUM, PJUM & P2D</small>
     </h1>    
   </section>
 
